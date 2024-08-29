@@ -1,0 +1,134 @@
+.aboutme {
+  background-color: var(--lt-black);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--lt-semibackground) 50%,
+    transparent 50%
+  );
+}
+
+& b {
+  color: var(--lt-darkred);
+}
+
+.blocks > p {
+  width: 50%;
+  color: darkgrey;
+  font-weight: 600;
+}
+
+.aboutme h4 {
+  padding-top: 40px;
+  position: relative;
+  display: flex;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  z-index: 1;
+}
+
+.aboutme_skills_title {
+  position: relative;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.aboutme_desc,
+.aboutme_skills {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text {
+  flex-direction: column;
+}
+
+.aboutme_skills {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skill_block {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 100px;
+  background-color: #1e1e1e;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.aboutme_skills_img {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  padding-top: 30px;
+  margin: 0px auto;
+}
+
+.block {
+  display: grid;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  z-index: 1;
+  justify-content: left;
+  align-content: flex-start;
+  padding: 35px 0px 0px 25px;
+}
+
+.red {
+  background-color: var(--lt-darkred);
+  background: linear-gradient(180deg, var(--lt-darkred) 50%, var(--lt-softred));
+}
+
+.grey {
+  background-color: var(--lt-grey);
+}
+
+.red img {
+  height: 50px;
+  filter: invert(100%);
+  margin-bottom: 15px;
+}
+
+.grey img {
+  height: 50px;
+  filter: invert(19%) sepia(97%) saturate(2005%) hue-rotate(347deg)
+    brightness(106%) contrast(78%);
+  margin-bottom: 15px;
+}
+
+.blocks h6 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.blocks p {
+  text-align: left;
+  font-weight: 400;
+  width: 80%;
+}

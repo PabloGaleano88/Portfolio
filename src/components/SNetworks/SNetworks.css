@@ -1,0 +1,30 @@
+.sn_bar {
+  height: 100%;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  width: 50px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+.sn_bar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sn_bar ul a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.svg_icon {
+  filter: invert(100%);
+  transition-duration: 0.2s;
+  height: 25px;
+}
+
+.svg_icon:hover {
+  scale: 120%;
+}

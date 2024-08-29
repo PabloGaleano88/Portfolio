@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Satellite Webpage - Frontend",
+        "img": "/images/darksat_html.png",
+        "description": null,
+        "languages": ["HTML", "CSS"],
+        "url":"https://pablogaleano88.github.io/PFGaleano/"
+    },
+    {   
+        "id": 2,
+        "name": "Gym Webpage - Frontend",
+        "img": "/images/gym_js.png",
+        "description": null,
+        "languages": ["HTML", "CSS", "JavaScript"],
+        "url":" https://pablogaleano88.github.io/JS_EntregaFinalGaleano/"
+    },
+    {
+        "id": 3,
+        "name": "Games Webpage - Frontend",
+        "img": "/images/games_react.png",
+        "description": null,
+        "languages": ["HTML", "CSS", "JavaScript", "React"],
+        "url":"https://entrega-final-galeano-react.vercel.app/"
+    },
+    {
+        "id": 4,
+        "name": "E-commerce - Backend",
+        "img": "/images/backend.png",
+        "description": null,
+        "languages": ["HTML", "CSS", "JavaScript", "MongoDB"]
+
+    }
+]
