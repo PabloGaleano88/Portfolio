@@ -5,8 +5,8 @@ import { LangContext } from "../../Context/Langcontext";
 import photo from "../../assets/photos/aboutmephoto.jpg";
 import download_icon from "../../assets/icons/download.svg";
 
-import resume_en from "/documents/CV Pablo Galeano English 2024.pdf";
-import resume_es from "/documents/CV Pablo Galeano Spanish 2024.pdf";
+import resume_en from "/documents/resume_en.pdf";
+import resume_es from "/documents/resume_es.pdf";
 
 const Presentation = () => {
   const { language } = useContext(LangContext);
