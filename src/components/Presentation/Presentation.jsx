@@ -5,6 +5,9 @@ import { LangContext } from "../../Context/Langcontext";
 import photo from "../../assets/photos/aboutmephoto.jpg";
 import download_icon from "../../assets/icons/download.svg";
 
+import resume_en from "../../assets/documents/CV Pablo Galeano English 2024.pdf";
+import resume_es from "../../assets/documents/CV Pablo Galeano Spanish 2024.pdf";
+
 const Presentation = () => {
   const { language } = useContext(LangContext);
 
@@ -26,12 +29,8 @@ const Presentation = () => {
             : "Ingeniero electrónico y desarrollador Full Stack. Me apasiona transformar ideas en soluciones tecnológicas eficientes y escalables. Adquirí conocimientos de Frontend y Backend con la utilización frameworks modernos, estoy aquí para ayudarte a llevar tu proyecto al siguiente nivel. Explora mis proyectos o ¡pongámonos en contacto!"}
         </p>
         <a
-          href={
-            language === "en"
-              ? "https://drive.google.com/file/d/14Icp5iM3oDAJE30YLpp5ApBLpYima6b6/view?usp=drive_link"
-              : "https://drive.google.com/file/d/1Lb-h2OV9cj8dzg5DekebRan0MeDuyrD4/view?usp=drive_link"
-          }
-          download="resume Galeano"
+          href={language === "en" ? { resume_en } : { resume_es }}
+          download="Resume_Galeano_Full_Stack.pdf"
         >
           {language === "en" ? "DOWNLOAD RESUME" : "DESCARGAR CV"}
           <img src={download_icon} alt="" />

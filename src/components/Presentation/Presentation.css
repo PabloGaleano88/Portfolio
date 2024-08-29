@@ -54,7 +54,7 @@ h2 {
   align-items: center;
   background: linear-gradient(90deg, var(--lt-darkred) 50%, var(--lt-softred));
   font-weight: 500;
-  padding: 15px 30px;
+  padding: 5px 10px;
   border: none;
 }
 
