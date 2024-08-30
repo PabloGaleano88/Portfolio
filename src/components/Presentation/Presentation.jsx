@@ -28,8 +28,8 @@ const Presentation = () => {
         <a
           href={
             language === "en"
-              ? "https://portfoliogaleano.vercel.app/documents/resume_en.pdf"
-              : "https://portfoliogaleano.vercel.app/documents/resume_es.pdf"
+              ? "/documents/resume_en.pdf"
+              : "/documents/resume_es.pdf"
           }
           download="Resume_Galeano_Full_Stack.pdf"
         >
