@@ -41,16 +41,6 @@
 .tech img {
   padding: 30px 0px 5px;
 }
-/* .card_text_container {
-  position: absolute;
-  height: 120px;
-  width: 100%;
-  top: 75%;
-  background-color: rgb(30, 30, 30);
-  z-index: 1;
-  box-shadow: 0 5px 10px orange;
-}
-*/
 
 .card_text {
   display: flex;
@@ -69,4 +59,23 @@
 .tech {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 1080px) {
+  .projects_cards_container {
+    margin: 50px auto;
+  }
+
+  .project_card {
+    width: 260px;
+  }
+
+  .project_card > img {
+    width: 250px;
+  }
+
+  .tech img {
+    width: 50px;
+    padding: 30px 0px 5px;
+  }
 }

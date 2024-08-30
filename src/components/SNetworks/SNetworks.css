@@ -28,3 +28,36 @@
 .svg_icon:hover {
   scale: 120%;
 }
+
+@media (max-width: 1080px) {
+  .sn_bar {
+    height: auto;
+    width: 60%;
+    padding-top: 25px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 4;
+  }
+
+  .sn_bar ul a {
+    margin-bottom: 10px;
+  }
+
+  .svg_icon {
+    filter: invert(100%);
+    transition-duration: 0.2s;
+    height: 25px;
+  }
+
+  .sn_bar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-left: 15px;
+    list-style: none;
+  }
+}

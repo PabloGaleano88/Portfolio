@@ -64,3 +64,24 @@
     scale: 1.2;
   }
 }
+
+@media (max-width: 1080px) {
+  .bar {
+    background-color: black;
+    position: sticky;
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .links {
+    display: none;
+  }
+  .lang_selector {
+    display: flex;
+    margin-right: 25px;
+  }
+}

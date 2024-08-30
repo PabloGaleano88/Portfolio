@@ -82,3 +82,18 @@ h2 {
     transform: scale(0.95, 1.05);
   }
 }
+
+@media (max-width: 1080px) {
+  .flex_container {
+    flex-wrap: wrap;
+    margin: 0px auto 50px auto;
+  }
+
+  .titles {
+    align-items: center;
+  }
+
+  .presentation_desc {
+    text-align: center;
+  }
+}
