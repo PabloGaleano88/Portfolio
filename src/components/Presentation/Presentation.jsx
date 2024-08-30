@@ -28,8 +28,8 @@ const Presentation = () => {
         <a
           href={
             language === "en"
-              ? "/documents/resume_en.pdf"
-              : "/documents/resume_es.pdf"
+              ? "/documents/resume_galeano_en.pdf"
+              : "/documents/resume_galeano_es.pdf"
           }
           download="Resume_Galeano_Full_Stack.pdf"
         >
