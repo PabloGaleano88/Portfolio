@@ -23,7 +23,7 @@ const Aboutme = () => {
 
   return (
     <div className="aboutme">
-      <h4>SOBRE MÍ</h4>
+      <h4>{language === "en" ? "ABOUT ME" : "SOBRE MÍ"}</h4>
       <div className="aboutme_block"></div>
       <div className="blocks">
         <p>
