@@ -21,7 +21,7 @@
 .projects_cards_container a {
   text-decoration: none;
   font-weight: 700;
-  color: var(--lt-darkred);
+  color: var(--lt-softred);
 }
 
 .project_card {
