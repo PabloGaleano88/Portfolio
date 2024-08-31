@@ -67,9 +67,9 @@ const Aboutme = () => {
         </p>
         <div className="block grey">
           <img src={glasses} alt="" />
-          <h6>
+          <h5>
             {language === "en" ? "Frontend Develop" : "Desarrollo Frontend"}
-          </h6>
+          </h5>
           <p>
             {language === "en"
               ? "Structure and organize web page content in a semantic and accessible way. Create visually appealing interface designs."
@@ -78,9 +78,9 @@ const Aboutme = () => {
         </div>
         <div className="block red">
           <img src={gear} alt="" />
-          <h6>
+          <h5>
             {language === "en" ? "Backend Develop" : "Desarrollo Backend"}
-          </h6>
+          </h5>
           <p>
             {language === "en"
               ? "Create and manage server-side logic in a web application. Additionally, ensure that data is properly processed and delivered from the server to the end user through the frontend interface."
@@ -89,9 +89,9 @@ const Aboutme = () => {
         </div>
         <div className="block grey">
           <img src={stack} alt="" />
-          <h6>
+          <h5>
             {language === "en" ? "FullStack Develop" : "Desarrollo FullStack"}
-          </h6>
+          </h5>
           <p>
             {language === "en"
               ? "Manage both the frontend and backend, allowing for work on all stages of application development, from interface design to server-side logic implementation."
@@ -100,7 +100,7 @@ const Aboutme = () => {
         </div>
       </div>
       <div className="aboutme_skills_title">
-        <h5>{language === "en" ? "SKILLS" : "HABILIDADES"}</h5>
+        <h6>{language === "en" ? "SKILLS" : "HABILIDADES"}</h6>
       </div>
       <div className="aboutme_skills">
         <div className="skill_block">
