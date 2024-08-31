@@ -28,7 +28,8 @@
         "name": "E-commerce - Backend",
         "img": "/images/backend.png",
         "description": null,
-        "languages": ["HTML", "CSS", "JavaScript", "MongoDB"]
+        "languages": ["HTML", "CSS", "JavaScript", "MongoDB"],
+        "url":"https://proyectofinalbackendgaleano-production.up.railway.app/login"
 
     }
 ]
