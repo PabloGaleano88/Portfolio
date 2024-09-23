@@ -104,6 +104,30 @@ const Aboutme = () => {
       </div>
       <div className="aboutme_skills">
         <div className="skill_block">
+          <img
+            className="aboutme_skills_img"
+            src={javascript}
+            alt="JavaScript"
+          />
+          <div>⭐</div>
+          JavaScript
+        </div>
+        <div className="skill_block">
+          <img className="aboutme_skills_img" src={react} alt="React" />
+          <div>⭐</div>
+          ReactJS
+        </div>
+        <div className="skill_block">
+          <img className="aboutme_skills_img" src={mongodb} alt="" />
+          <div>⭐</div>
+          MongoDB
+        </div>
+        <div className="skill_block">
+          <img className="aboutme_skills_img" src={nodejs} alt="" />
+          <div>⭐</div>
+          NodeJS
+        </div>
+        <div className="skill_block">
           <img className="aboutme_skills_img" src={html5} alt="HTML5" />
           HTML 5
         </div>
@@ -112,32 +136,12 @@ const Aboutme = () => {
           CSS3
         </div>
         <div className="skill_block">
-          <img
-            className="aboutme_skills_img"
-            src={javascript}
-            alt="JavaScript"
-          />
-          JavaScript
-        </div>
-        <div className="skill_block">
-          <img className="aboutme_skills_img" src={react} alt="React" />
-          ReactJS
-        </div>
-        <div className="skill_block">
           <img className="aboutme_skills_img" src={vite} alt="Vite" />
           Vite
         </div>
         <div className="skill_block">
           <img className="aboutme_skills_img" src={express} alt="ExpressJS" />
           ExpressJS
-        </div>
-        <div className="skill_block">
-          <img className="aboutme_skills_img" src={mongodb} alt="" />
-          MongoDB
-        </div>
-        <div className="skill_block">
-          <img className="aboutme_skills_img" src={nodejs} alt="" />
-          NodeJS
         </div>
         <div className="skill_block">
           <img className="aboutme_skills_img" src={github} alt="" />
